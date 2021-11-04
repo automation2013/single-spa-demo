@@ -1,0 +1,28 @@
+<html>
+<body>
+<div class="header">
+  <div class="header-item" onclick="singleSpaNavigate('/pure-html')">pureHtml demo</div>
+  <div class="header-item" onclick="singleSpaNavigate('/single-spa-html')">single-spa-html-demo demo</div>
+</div>
+<div style="color: red">spa加载数据：</div>
+<div id="id-app-single-spa-html"></div>
+</body>
+<style>
+  .header{
+    background: yellow;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-item {
+    margin: 20px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+</style>
+</html>
