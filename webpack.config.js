@@ -9,6 +9,7 @@ module.exports = {
         path    : path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
     },
+    resolve: { alias: { 'vue': 'vue/dist/vue.js' } },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({ template: path.join(__dirname, './src/index.html'), filename: 'index.html' }),
