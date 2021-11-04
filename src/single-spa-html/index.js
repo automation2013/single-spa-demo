@@ -1,3 +1,6 @@
+/**
+ * 参考文档：https://zh-hans.single-spa.js.org/docs/ecosystem-html-web-components
+ */
 import singleSpaHtml from 'single-spa-html';
 
 const htmlStr = `
