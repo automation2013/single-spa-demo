@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../single-spa-demo1/.idea/single-spa-demo.iml" filepath="$PROJECT_DIR$/../single-spa-demo1/.idea/single-spa-demo.iml" />
+    </modules>
+  </component>
+</project>
