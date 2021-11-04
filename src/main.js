@@ -20,7 +20,7 @@ import * as singleSpa from 'single-spa';
 (() => {
   const name = 'singleSpaHtmlDemo';
 
-  const app = () => import('./single-spa-html-demo/index.js');
+  const app = () => import('./single-spa-html/index.js');
 
   const activeWhen = '/single-spa-html';
 
