@@ -1,8 +1,8 @@
-import Vue from  'vue';
+import Vue from 'vue';
+import App from './src/App.vue';
 
-var MainCtrl = new Vue({
-  el:'#app-single-spa-vue',
-  data:{
-    message:'Hello world single-spa-vue'
-  }
-})
+Vue.config.productionTip = false;
+
+new Vue({
+    render: (h) => { return h(App); },
+}).$mount('#app-single-spa-vue');
