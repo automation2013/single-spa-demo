@@ -18,11 +18,21 @@ import * as singleSpa from 'single-spa';
 })();
 
 (() => {
-  const name = 'singleSpaHtmlDemo';
+  const name = 'singleSpaHtml';
 
   const app = () => import('./single-spa-html/index.js');
 
   const activeWhen = '/single-spa-html';
+
+  singleSpa.registerApplication({ name, app, activeWhen });
+})();
+
+(() => {
+  const name = 'singleSpaVue';
+
+  const app = () => import('./single-spa-vue/index.js');
+
+  const activeWhen = '/single-spa-vue';
 
   singleSpa.registerApplication({ name, app, activeWhen });
 })();

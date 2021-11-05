@@ -7,8 +7,8 @@ import Page2 from '../pages/page2.vue';
 // const Page2 = { template: '<div>bar</div>' }
 
 const routes = [
-    { path: '/page1', component: Page1 },
-    { path: '/page2', component: Page2 },
+    { path: '/single-spa-vue/page1', component: Page1 },
+    { path: '/single-spa-vue/page2', component: Page2 },
 ];
 
 const router = new VueRouter({
